@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>社交栏图标</title>
+        <link rel="stylesheet" href="css/style1.css">  
+        <script src="https://kit.fontawesome.com/84456bc990.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    </head>
+    <body>
+        <div class="middle">
+            <div class="sm-container">
+                <i class="show-btn fas fa-user"></i>
+                <div class="sm-menu">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <script>
+            $(".show-btn").click(function(){
+                $(".sm-menu").fadeToggle("fast");
+            });
+        </script>
+    </body>
+</html>
